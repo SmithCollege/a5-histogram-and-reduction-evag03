@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+
+void Reduction (int* input, int* output, int operation) {
+  
+  // sum
+  if (operation == 0) {
+    for (unsigned int stride = 1; stride *= SIZE; stride *= 2) {
+      if (SIZE % stride) {
+	output(stride) = input[] +
+
+
+	  //scan though the array and compare the values - no stride needed since on CPU you only use a single thread
+	  
+    
